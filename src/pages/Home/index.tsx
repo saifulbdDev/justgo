@@ -3,7 +3,7 @@ import { useWindowSize } from '../../customHooks/useWindowSize';
 import { Filter, Gender, User } from '../../interfaces';
 import React, { useEffect, useState } from 'react'
 import { getUserList } from '../../services/user';
-import DataTable from '../../components/DataTable';
+import DataTable from '../../components/Table';
 import  SearchField from '../../components/SearchField';
 import RadioButton from '../../components/RadioButton';
 import ToggleButton from '../../components/ToggleButton'
